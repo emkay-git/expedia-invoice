@@ -1,0 +1,40 @@
+<header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 format-header">
+            Invoice Generated
+        </div>
+      </div>
+    </div>
+  </header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Category</th>
+            <th scope="col">Price</th>
+            <th scope="col">Tax Rate</th>
+            <th scope="col">Amount</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of products">
+
+            <td>{{product.name}}</td>
+            <td>{{product.quantity}}</td>
+            <td>{{product.category}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.taxRate}}</td>
+            <td>{{product.total}}</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="total-amount">Total: {{invoice.total}}</div>
+    </div>
+
+  </div>
+</div>

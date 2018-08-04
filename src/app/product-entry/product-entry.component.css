@@ -1,0 +1,32 @@
+.design-container{
+    margin:auto;
+    margin-top:30px;
+    border: 2px solid green;
+    padding: 20px;
+    
+}
+
+.center-button{
+display:flex;
+justify-content: center;
+}
+
+
+
+.add-another {
+    color:grey;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.add-another:hover{
+    color:black;
+}
+.format-header{
+    font-size: 60px;
+    color:grey;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:50px;
+}

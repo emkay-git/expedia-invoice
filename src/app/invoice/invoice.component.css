@@ -1,0 +1,14 @@
+.total-amount{
+    color:grey;
+    font-size:25px;
+    font-weight: bolder;
+    float:right;
+    padding-right:150px;
+}
+.format-header{
+    font-size: 60px;
+    color:grey;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:50px;
+}
